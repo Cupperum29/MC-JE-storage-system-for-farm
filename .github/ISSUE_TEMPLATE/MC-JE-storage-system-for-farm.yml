@@ -1,0 +1,59 @@
+name: 需要收集
+description: 需要机器收集选这个
+title: "在这填机器的名称"
+labels: ["待做收集"]
+body:
+
+  - type: input
+    id: archive_link
+    attributes:
+      label: 存档/投影链接
+      description: 请提供存档或投影文件的下载链接
+      placeholder: "https://..."
+    validations:
+      required: true
+
+  - type: input
+    id: video_link
+    attributes:
+      label: 原机器视频链接
+      description: 请提供原机器的演示视频链接
+      placeholder: "https://..."
+    validations:
+      required: false
+
+  - type: input
+    id: game_version
+    attributes:
+      label: 游戏版本
+      description: 此处应填写机器版本和收集版本的交集
+      placeholder: "例如某机器为1.18.2~26.1.2，而收集使用了合成器（1.21+），则应为1.21~26.1.2"
+    validations:
+      required: true
+
+  - type: textarea
+    id: item_types
+    attributes:
+      label: 收集哪几种物品
+      description: 请列出该机器收集的物品类型，可分行填写
+      placeholder: "1. ...\n2. ..."
+    validations:
+      required: true
+
+- type: input
+    id: disolve_method
+    attributes:
+      label: 收集方式
+      description: 请说明机器的收集方式
+      placeholder: "需详细描述每种"
+    validations:
+      required: false
+      
+  - type: textarea
+    id: item_storage
+    attributes:
+      label: 每种物品的储量
+      description: 请对应上面列出的物品，填写每种物品的大致储量（大宗一片220w储量），小机器可忽略
+      placeholder: "物品A：...\n物品B：..."
+    validations:
+      required: true
