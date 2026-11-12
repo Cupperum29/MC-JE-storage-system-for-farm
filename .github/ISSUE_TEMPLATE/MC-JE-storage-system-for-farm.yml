@@ -30,6 +30,12 @@ body:
     validations:
       required: true
 
+  - type: markdown
+    id: efficiency
+    attributes:
+      value: |
+        这里写 Markdown 内容
+        可以多行
   - type: textarea
     id: item_types
     attributes:
