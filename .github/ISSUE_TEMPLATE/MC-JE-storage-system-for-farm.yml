@@ -25,7 +25,7 @@ body:
   - type: input
     id: game_version
     attributes:
-      label: "游戏版本
+      label: 游戏版本
       description: 此处应填写机器版本和收集版本的交集
       placeholder: "例如某机器为1.18.2~26.1.2，而收集使用了合成器（1.21+），则应为1.21~26.1.2"
     validations:
