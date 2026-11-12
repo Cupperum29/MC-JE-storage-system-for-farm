@@ -44,9 +44,9 @@ body:
     attributes:
       label: 收集方式
       description: 请说明机器的收集方式
-      placeholder: "需详细描述每种产物如何收集，例如“烧车分流金粒后合成为金块并打包，金锭使用分类合成打包机合成为金块并打包”"
+      placeholder: "需详细描述每种产物如何收集\n例如“烧车分流金粒后合成为金块并打包，金锭使用分类合成打包机合成为金块并打包”\n“模式选择切换堆分漏斗，堆分后接换盒混杂打包机”"
     validations:
-      required: false
+      required: true
       
   - type: textarea
     id: item_storage
