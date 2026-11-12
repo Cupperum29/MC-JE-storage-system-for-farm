@@ -30,21 +30,15 @@ body:
     validations:
       required: true
 
-  - type: markdown
-    id: efficiency
-    attributes:
-      value: |
-        这里写 Markdown 内容
-        可以多行
   - type: textarea
-    id: item_types
+    id: item_types_and_efficiency
     attributes:
-      label: 收集哪几种物品
-      description: 请列出该机器收集的物品类型，可分行填写
-      placeholder: "1. ...\n2. ..."
+      label: 需要收集物品的各自效率
+      description: 在这里填写需要收集的物品的种类和对应的效率，最好是作者给的效率表，若为自己测试的效率截图则需额外标注需要收集哪些物品
+      placeholder: "物品A：...\n物品B：..."
     validations:
       required: true
-
+  
   - type: input
     id: disolve_method
     attributes:
