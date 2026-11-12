@@ -41,7 +41,7 @@ body:
     validations:
       required: true
   
-  - type: input
+  - type: textarea
     id: disolve_method
     attributes:
       label: 收集方式
