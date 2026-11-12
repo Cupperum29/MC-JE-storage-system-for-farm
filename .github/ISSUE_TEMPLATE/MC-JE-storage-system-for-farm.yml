@@ -2,6 +2,8 @@ name: "需要收集"
 description: "需要机器收集选这个"
 title: "在这填机器的名称"
 labels: ["待做收集"]
+assignees: 
+   - Cupperum29
 body:
 
   - type: textarea
