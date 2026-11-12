@@ -7,9 +7,8 @@ body:
   - type: input
     id: archive_link
     attributes:
-      label: 存档/投影链接
-      description: 在这上传存档或投影
-      placeholder: ""
+      label: 存档/投影
+      description: 在此处上传存档或投影，绑定种子、依赖结构、有位置性、需要严格对门的机器必须上传存档
     validations:
       required: true
 
@@ -45,7 +44,7 @@ body:
     attributes:
       label: 收集方式
       description: 请说明机器的收集方式
-      placeholder: "需详细描述每种"
+      placeholder: "需详细描述每种产物如何收集，例如“烧车分流金粒后合成为金块并打包，金锭使用分类合成打包机合成为金块并打包”"
     validations:
       required: false
       
