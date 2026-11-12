@@ -4,7 +4,7 @@ title: "在这填机器的名称"
 labels: ["待做收集"]
 body:
 
-  - type: input
+  - type: textarea
     id: archive_link
     attributes:
       label: 存档/投影
