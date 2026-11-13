@@ -29,7 +29,9 @@ body:
        label: 提交前检查
        description: 请确认你已完成以下步骤
        options:
+        - label: 我已知晓此仅为收集的提交bug界面，并非机器本身的提交bug界面，机器本身的bug应找原作者而非收集作者
+          required: true
         - label: 已在仅有锂的Fabric/无模组和加载器的环境下测试过，已排除模组对收集的影响；若需开启carpet的移植规则，则在测试时仅保留该移植规则开启，其余规则皆为默认值
           required: true
-        - label: 已在issue中搜索过，该bug其他人尚未提交过
+        - label: 已在issue中搜索过，该bug尚未被提交过
           required: true
