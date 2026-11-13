@@ -1,7 +1,7 @@
 name: "提交bug"
 description: "收集有bug选这个，机器本身bug请找原作者"
 title: "在此处简述收集的bug"
-labels:["bug"]
+labels: ["bug"]
 assignees: 
    - Cupperum29
 body:
