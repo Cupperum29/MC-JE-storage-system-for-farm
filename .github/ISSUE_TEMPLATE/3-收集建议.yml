@@ -1,0 +1,24 @@
+name: "收集建议"
+description: "有任何对于收集的想法都可以提"
+title: "你对收集有什么想法？"
+labels: ["想法"]
+assignees: 
+   - Cupperum29
+body:
+
+   - type: input
+     id: farm
+     attributes:
+       label: 你对什么机器或者什么类别的机器的收集有想法
+       description: 可以是特定机器的名字、视频链接或者仅仅是机器的类别
+       placeholder: "av170001、全树种、4gt抗卸载地狱树场"
+     validations:
+       required: false
+   - type: textarea
+     id: thinking
+     attributes:
+       label: 想法
+       description: 说出你的想法
+       placeholder: "我认为……\n其次……\n再者\n最后……。"
+     validations:
+       required: true
