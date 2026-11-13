@@ -19,6 +19,6 @@ body:
      attributes:
        label: 想法
        description: 说出你的想法
-       placeholder: "我认为……\n其次……\n再者\n最后……。"
+       placeholder: "我认为……\n其次……\n再者……\n最后……。"
      validations:
        required: true
