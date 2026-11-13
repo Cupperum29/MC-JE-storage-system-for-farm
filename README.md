@@ -14,7 +14,7 @@
 ## 黑名单
 - 服务端：一切非原版和非Fabric的服务端，包括但不限于Folia、Leaves、Spigot、Bukkit、Luminol、Purpur。拒绝任何为黑名单服务端做适配，如果你发现机器在黑名单服务端中无法使用，那就是服务端的问题
 - 模组：Moonrise、Concurrent Chunk Management Engine、Immersive Optimization、Open Parties and Claims、ServerCore、Alternate Current
-- 收集：矿车洪流凋零骷髅、效率超过千万的、地毯独有的特性（tnt炸死蜘蛛掉附魔金苹果、三模式刷石机、推容）、赤石科技
+- 收集：矿车洪流凋零骷髅、效率超过千万的、地毯独有的特性（例如tnt炸死蜘蛛掉附魔金苹果、三模式刷石机、推容）、赤石科技
 ## 投影注意事项
 - 投影降版本有问题可以用[投影v7转v6工具](https://github.com/chenjunfu2/Litematic_V7_To_V6)
 - 投影跨版本可能会导致点粉变为十字粉，需手动修复
