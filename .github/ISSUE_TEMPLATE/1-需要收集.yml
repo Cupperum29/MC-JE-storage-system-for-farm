@@ -38,7 +38,7 @@ body:
     attributes:
       label: 需要收集物品的各自效率
       description: 在这里填写所有物品的效率（建议使用作者提供的效率表）和所需收集的物品的种类
-      placeholder: "例如\n-物品A（收集）：...\n物品B（不收集）：..."
+      placeholder: "例如\n 物品A（收集）：...\n 物品B（不收集）：..."
     validations:
       required: true
   
