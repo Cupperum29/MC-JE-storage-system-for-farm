@@ -1,0 +1,24 @@
+name: "提交bug"
+description: "收集有bug选这个，机器本身bug请找原作者"
+title: "在此处简述收集的bug"
+labels:["bug"]
+assignees: 
+   - Cupperum29
+body:
+
+   - type: input
+     id: name
+     attributes:
+       label: 投影/存档的名称
+       description: 在此处填写收集的投影文件名或存档的文件夹名
+     validations:
+       required: true
+
+   - type: textarea
+     id: bug_desc
+     attributes:
+       label: 详细描述收集的bug
+       description: 在此处描述收集的bug，尽量搭配上截图和标注
+       placeholder: "例如：大宗盒子分类第六片的分类物应为xx，实则为xx\n补盒水道某处中断，缺少一个水源（此处补上截图）"
+     validations:
+       required: true
