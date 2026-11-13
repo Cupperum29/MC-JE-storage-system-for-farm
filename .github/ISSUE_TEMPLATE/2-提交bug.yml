@@ -31,7 +31,9 @@ body:
        options:
         - label: 我已知晓此仅为收集的提交bug界面，并非机器本身的提交bug界面，机器本身的bug应找原作者而非收集作者
           required: true
-        - label: 已在仅有锂的Fabric/无模组和加载器的环境下测试过，已排除模组对收集的影响；若需开启carpet的移植规则，则在测试时仅保留该移植规则开启，其余规则皆为默认值
+        - label: 我已知晓作者不会去修复收集在服务端黑名单中的服务器的bug，此bug通常由服务端特性导致
+          required: true
+        - label: 已在仅有锂的Fabric或纯原版的环境下测试过，已排除模组对收集的影响，且收集仍然有问题；若需开启carpet的移植规则，则在测试时仅保留该移植规则开启，其余规则皆为默认值
           required: true
         - label: 已在issue中搜索过，该bug尚未被提交过
           required: true
