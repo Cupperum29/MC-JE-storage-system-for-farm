@@ -55,7 +55,7 @@ body:
     id: capacity
     attributes:
       label: 每种物品的储量
-      description: 请对应上面列出的物品，填写每种物品的大致储量（大宗一片220w储量），小机器可忽略
+      description: 请对应上面列出的需要收集的物品，填写每种物品的大致储量（大宗一片220w储量），也可以要求尽量大储量，小机器可忽略
       placeholder: "物品A：...\n物品B：..."
     validations:
       required: true
