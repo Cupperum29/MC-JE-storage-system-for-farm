@@ -19,7 +19,7 @@ body:
     id: video_link
     attributes:
       label: 机器视频链接
-      description: 在此处粘贴原机器的演示视频链接
+      description: 在此处粘贴原机器的演示视频链接或者BV号，若及其名称处为视频标题则必须在此处附上视频链接或者BV号
       placeholder: "https://..."
     validations:
       required: false
