@@ -1,6 +1,6 @@
 name: "需要收集"
 description: "需要机器收集选这个"
-title: "在这填机器的名称"
+title: "机器名称：（可直接复制投影文件名称、存档名称或者视频标题）"
 labels: ["待做收集"]
 assignees: 
    - Cupperum29
