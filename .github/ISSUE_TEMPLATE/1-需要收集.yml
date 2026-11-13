@@ -34,7 +34,7 @@ body:
       required: true
 
   - type: textarea
-    id: item_types_and_efficiency
+    id: types_and_efficiency
     attributes:
       label: 需要收集物品的各自效率
       description: 在这里填写需要收集的物品的种类和对应的效率，最好是作者给的效率表
@@ -43,7 +43,7 @@ body:
       required: true
   
   - type: textarea
-    id: disolve_method
+    id: method
     attributes:
       label: 收集方式
       description: 请说明机器的收集方式
@@ -52,11 +52,17 @@ body:
       required: false
       
   - type: textarea
-    id: item_storage
+    id: capacity
     attributes:
       label: 每种物品的储量
       description: 请对应上面列出的物品，填写每种物品的大致储量（大宗一片220w储量），小机器可忽略
       placeholder: "物品A：...\n物品B：..."
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: 备注
     validations:
       required: true
 
