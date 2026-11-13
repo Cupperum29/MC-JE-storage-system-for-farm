@@ -67,7 +67,7 @@ body:
       description: 请确认你已完成以下步骤
       options:
         - label: 收集方式仅为个人意见，若有更好的愿意更换收集方式，不勾选代表只接受该收集方式
-        - label: 我已熟读仓库中的README.md，已熟知其中所有的注意事项
+        - label: 我已熟读仓库中的[README.md](https://github.com/Cupperum29/MC-JE-storage-system-for-farm/blob/main/README.md)，已熟知其中所有的注意事项
           required: true
         - label: 我已在仓库和带“待做收集”标签的issue中搜索过，目前没有我需要的收集
           required: true
